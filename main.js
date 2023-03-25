@@ -19,7 +19,7 @@ function preload() {
 
 function create() {
     this.add.image(400, 300, 'ground');
-    const mySprite = this.add.sprite(x, y, 'objects', 'sprite1');
+    const mySprite = this.add.sprite(200, 200, 'objects', 'sprite1');
 
     // Set up collisions, animations, and text for quests
 }
